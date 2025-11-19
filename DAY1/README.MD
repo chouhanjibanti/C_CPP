@@ -132,6 +132,12 @@ Structure of c programming
 }
 
 
+=====================
+
+
+Compile :- gcc Data1.c -o Data1
+run :- ./Data1
+
 
 
 

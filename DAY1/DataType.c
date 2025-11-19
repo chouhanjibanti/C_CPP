@@ -32,13 +32,21 @@
 
 // 3. WAP to find the simple interest.
 #include<stdio.h>
-void Main(){
+int main(){
     float p , r , t , si;
     printf("Enter the value of p, r , t\n");
     scanf("%f%f%f",&p,&r,&t);
     si = (p*r*t)/100;
     printf("Simple interst = %f",si);
 }
+
+// #include<stdio.h>
+// void main(){
+//     printf("hello life");
+// }
+
+
+
 
 // 4. WAP to find the area of circle.
 // 5. WAP to swap two numbers using the third number.
