@@ -39,17 +39,17 @@
 
 // 10. Write a program of faboncci series.
 // a =0 b = 1  0,1,1,2,3,5,8,13,21.......
-#include <stdio.h>
-void main()
-{
-    int a = 0, b = 1;
-    printf("%d",a);
-    printf("%d",b);
-    for (int i = 0; i <= 10; i++)
-    {
-        int temp = a + b; // temp = 0+1 = 1 // temp = 1+1 = 2
-        a = b;            // a= 1 // a= 1
-        b = temp;         // b = 1 // b = 2
-            printf("%d\n",b);
-    }
-}
+// #include <stdio.h>
+// void main()
+// {
+//     int a = 0, b = 1;
+//     printf("%d",a);
+//     printf("%d",b);
+//     for (int i = 0; i <= 10; i++)
+//     {
+//         int temp = a + b; // temp = 0+1 = 1 // temp = 1+1 = 2
+//         a = b;            // a= 1 // a= 1
+//         b = temp;         // b = 1 // b = 2
+//             printf("%d\n",b);
+//     }
+// }

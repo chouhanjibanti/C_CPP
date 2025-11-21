@@ -59,3 +59,9 @@ For loop :
 8. Write a program to find the factorial of number where number is 6.
 9. Write a program to check number is prime or not. - try
 10. Write a program of faboncci series.
+
+
+While loop :- 
+1. WAP to reverse the number. where number is 5678.
+2. Check the number it is palidrome or not.
+2. Check number it is armStrong or not.
