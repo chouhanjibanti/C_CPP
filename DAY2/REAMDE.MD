@@ -58,47 +58,24 @@ F     T
 =============================================
 
 
-Condition Statement :- if condition is true then if will work otherwise else.
-
-1. if else
-2. if else if else :- if we have multiple condition
-3. switch 
 
 
-Syntax :- 
-1. if(condition){
-    // statement 
-}else{
+Bitwise Operator :- 
+In c we perform operation in bit level .
 
-}
+Bitwise AND :- 
+A    B    A&B
+0    0     0
+0    1     0
+1    0     0
+1    1     1
 
-2. if else if else
-if(condition){
-    //statement
-}else if(condition){
-    // statement 
-}
-else if(condition){
-    // statement 
-}
-else if(condition){
-    // statement 
-}
-else{
+Bitwise OR :- 
+A    B    A|B
+0    0    0
+0    1    1
+1    0    1
+1    1    1
 
-}
+Bitwise Not (~)
 
-
-3. switch case 
-switch(value){
-    case 1:
-    // statement
-    break;
-    case 2:
-    // statement
-    break;
-    default:
-    break;
-}
-
-=============================================
