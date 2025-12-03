@@ -99,27 +99,59 @@
 
 // linear search  - dynamic array 
 // [10,20,30,40,50,100]
+// #include<stdio.h>
+// void main(){
+//     int a[5],key, found=0;
+//    printf("Enter the Array elements\n");
+//     for (int i = 0; i < 5; i++)
+//     {
+//         scanf("%d", &a[i]);
+//     }
+//     // search number
+//     printf("Enter the number to search");
+//     scanf("%d",&key);// 50
+
+//     for(int i=0;i<5;i++){
+//         if(a[i] == key){ // 0 == 50
+//             printf("Element found at index %d and position %d\n",i,i+1);
+//             found =1;
+//             break;
+//         }
+//     }
+//     if(!found){
+//         printf("Element not found\n");
+//     }
+// }
+
+
+// =================================================
+
+// binary search program 
+
 #include<stdio.h>
 void main(){
-    int a[5],key, found=0;
-   printf("Enter the Array elements\n");
-    for (int i = 0; i < 5; i++)
-    {
-        scanf("%d", &a[i]);
-    }
-    // search number
-    printf("Enter the number to search");
-    scanf("%d",&key);// 50
+    int a[7] = {2,3,5,7,9,11,15};
+    int f=0 , l = 6 , m , no;
 
-    for(int i=0;i<5;i++){
-        if(a[i] == key){ // 0 == 50
-            printf("Element found at index %d and position %d\n",i,i+1);
-            found =1;
+    printf("Enter the number to search :");
+    scanf("%d",&no); //9
+
+    while(f<=l){ // 0<=6 
+        m = (f+l)/2;   // m = (0+6)/2 = 3 || m = (4+6)/2 = 5 // m = (4+4)/2= 4
+
+        if(a[m] == no){  // 7 ==9 // 11==9 // 9==9
+            printf("number found at index %d and position %d\n", m, m+1);
             break;
         }
+        else if(a[m] < no) {  // 7<9 // 11<9
+            f = m+1;   //  f= 3+1 = 4
+        }
+        else{
+            l =m-1;  // l = 5-1 = 4
+        }
     }
-    if(!found){
-        printf("Element not found\n");
+    if(f>l){
+        printf("Number not found");
     }
 }
 
