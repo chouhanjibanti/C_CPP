@@ -39,3 +39,54 @@ Encapsulation :- Binding the data member and member function  together into a si
 Purpose :- Data Hiding , Security
 
 Example :- 
+
+==================================================
+
+
+Questions Based on the Encapsulation :- 
+
+Que :-1: Create a class Employee that hides salary and provides functions to set and get salary.
+
+-> Use private: salary
+-> Public functions: setSalary(), getSalary()
+
+=============================================
+
+Que:-2: Create a class Car that hides speed and fuel.
+
+Write methods to:    
+-> setSpeed()
+-> setFuel()
+-> showDetails()
+
+Both speed and fuel must be private.
+
+=============================================
+Que :-3: Create a class Student with private marks of 3 subjects.
+
+Write functions to:
+-> setMarks()
+-> calculateTotal()
+-> calculatePercentage()
+-> showResult()
+
+Marks must not be accessed directly.
+
+=============================================
+
+Ques :-4: Create a class BankAccount that hides balance and allows only controlled deposits & withdrawals.
+
+-> deposit(amount)
+-> withdraw(amount)
+-> showBalance()
+-> Do not allow negative deposit/withdraw
+
+=============================================
+
+Ques :-5: Create a class Laptop which hides price and modelNumber.
+
+Write methods to:
+-> setData(price, modelNumber)
+-> displayData()
+
+Price should never be negative → validate in setter.
