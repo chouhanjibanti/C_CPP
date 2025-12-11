@@ -42,12 +42,12 @@ Example :-
 
 5. Hybrid Inheritance :- Combination of any two inheritance is known as Hybrid inheritance.
 
-      A     B
-       \   /
-        \/
-         C
-       / | \
-      B  C  D
+      
+         A
+        / | 
+       B  C 
+       |  /
+         D
 
 
       ==================================================
@@ -123,3 +123,26 @@ Father: function sayFatherName()
 Mother: function sayMotherName()
 Child: function sayChildName()
 Create object of Child & call all functions.
+
+============================================
+
+HIERARCHICAL INHERITANCE — 
+Q1. Class Shape → Circle & Rectangle
+Shape: input values
+Circle: calculate area of circle
+Rectangle: calculate area of rectangle
+Use separate objects for Circle and Rectangle.
+
+
+Q2. Class Animal → Dog & Cat
+Animal: function eat()
+Dog: function bark()
+Cat: function meow()
+Call functions using respective objects.
+
+
+Q3. Class Vehicle → Bike & Car
+Vehicle: common function start()
+Bike: function twoWheeler()
+Car: function fourWheeler()
+Demonstrate hierarchical inheritance.
