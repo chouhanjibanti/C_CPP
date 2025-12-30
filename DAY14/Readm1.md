@@ -17,3 +17,8 @@ X(int a1 ,int b1){
     b = b1;
 }
 
+======================
+
+Copy Constructor :- 
+A copy consturctor is used to copy the value of the one object into another object.
+
