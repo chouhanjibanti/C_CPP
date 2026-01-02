@@ -30,3 +30,15 @@ A  set stored unique value and keep them sorted.
 
 when we use :- 
 1. when you need unique sorted element
+
+
+4. STL - Map
+
+Map stores data/items in key-value format(sorted by key)
+
+when we use :- 
+For key-value pair 
+Fast Searching by key
+
+
+

@@ -58,21 +58,75 @@
 // =========================================
 
 // set 
-#include<iostream>
-#include<set>
+// #include<iostream>
+// #include<set>
+// using namespace std;
+
+// int main(){
+//     set<int> s;
+
+//    s.insert(30);
+//      s.insert(90);
+//       s.insert(30);
+//        s.insert(10);
+
+//     cout << "Set of element : ";
+//     for(int x :s)
+//     cout << x << " ";
+// }
+
+
+// ===============================
+
+// Map :- 
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//    map<int ,string> m;
+
+//    m[101] = "tanisha";
+//    m[102] = "jay";
+//    m[103] = "ayush";
+
+//    cout << "Roll No -> Name\n";
+//    for(auto p1:m){
+//     cout << p1.first << " -> " << p1.second << endl;
+//     }
+// }
+
+// ===============================================
+
+// Stack :- Stores data 
+// FILO or LIFO
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//   stack<int> s;
+
+//   s.push(10);
+//   s.push(20);
+//   s.push(30);
+
+//    cout << s.top();
+// }
+
+
+// ========================================
+
+// Queue :- Stores data 
+// FIFO
+
+#include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-    set<int> s;
+  queue<int> q;
 
-   s.insert(30);
-     s.insert(90);
-      s.insert(30);
-       s.insert(10);
+  q.push(10);
+  q.push(20);
+  q.push(30);
 
-    cout << "Set of element : ";
-    for(int x :s)
-    cout << x << " ";
-
-
+   cout << q.front();
 }
